@@ -83,11 +83,11 @@
 		E9022F832567AEAA004535DB /* FlexibleString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9022F822567AEAA004535DB /* FlexibleString.swift */; };
 		E9022F872568A74C004535DB /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9022F862568A74C004535DB /* Date.swift */; };
 		E907C2CC2683CB2800EAE0E3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E907C2CB2683CB2800EAE0E3 /* FirebaseFirestore */; };
-		E907C2CE2683CB2800EAE0E3 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = E907C2CD2683CB2800EAE0E3 /* FirebaseFirestoreSwift-Beta */; };
 		E910C61E27A8B711003C9EB6 /* RepoNotAdded.swift in Sources */ = {isa = PBXBuildFile; fileRef = E910C61D27A8B711003C9EB6 /* RepoNotAdded.swift */; };
 		E910C62027A8B89A003C9EB6 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E910C61F27A8B89A003C9EB6 /* SignInButton.swift */; };
 		E910C62227A8B945003C9EB6 /* BrowseRepoSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E910C62127A8B945003C9EB6 /* BrowseRepoSection.swift */; };
 		E910C62427A8BC50003C9EB6 /* FeaturedPackageBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E910C62327A8BC50003C9EB6 /* FeaturedPackageBanner.swift */; };
+		E912405D2ABCE21900AC550B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E912405C2ABCE21900AC550B /* FirebaseFirestoreSwift */; };
 		E918F93F255A08450064A543 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918F93C255A08450064A543 /* Repo.swift */; };
 		E918F940255A08450064A543 /* SileoDepiction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918F93E255A08450064A543 /* SileoDepiction.swift */; };
 		E918F947255A08600064A543 /* URLFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918F946255A08600064A543 /* URLFunctions.swift */; };
@@ -354,7 +354,6 @@
 				6DF96B7F2671D8F4004E805C /* libbz2.1.0.tbd in Frameworks */,
 				E9828012255C7DF20034CD35 /* SwiftlySearch in Frameworks */,
 				E907C2CC2683CB2800EAE0E3 /* FirebaseFirestore in Frameworks */,
-				E907C2CE2683CB2800EAE0E3 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				E920338D288CBF5D0054589F /* DataCompression in Frameworks */,
 				E9B1BCCE25647F9400E09F2F /* SwiftUIRefresh in Frameworks */,
 				E9AABFA32561C68100112525 /* Down in Frameworks */,
@@ -362,6 +361,7 @@
 				6DD3ED48283AB4E1004F18E8 /* PartialSheet in Frameworks */,
 				6DA46EAF27ABC394002FE49D /* Grid in Frameworks */,
 				E918F96B255A1EF40064A543 /* URLImage in Frameworks */,
+				E912405D2ABCE21900AC550B /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,12 +1007,12 @@
 				E9AABFA22561C68100112525 /* Down */,
 				E9B1BCCD25647F9400E09F2F /* SwiftUIRefresh */,
 				E907C2CB2683CB2800EAE0E3 /* FirebaseFirestore */,
-				E907C2CD2683CB2800EAE0E3 /* FirebaseFirestoreSwift-Beta */,
 				6DA46EAE27ABC394002FE49D /* Grid */,
 				6DD3ED47283AB4E1004F18E8 /* PartialSheet */,
 				E95DCD782864147400F39F8B /* SWCompression */,
 				E95AD222288B1CD30090D074 /* BetterSafariView */,
 				E920338C288CBF5D0054589F /* DataCompression */,
+				E912405C2ABCE21900AC550B /* FirebaseFirestoreSwift */,
 			);
 			productName = PostBox;
 			productReference = E96A60E025590BFD00E1442C /* Pocket.app */;
@@ -1395,7 +1395,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				INFOPLIST_FILE = PostBox/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Pocket;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pocket (Dev)";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1405,7 +1405,7 @@
 				MARKETING_VERSION = 0.8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_SWIFT_FLAGS[arch=*]" = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.simplycode.PostBox-Pocket";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simplycode.PostBox-Pocket-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1441,7 +1441,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				INFOPLIST_FILE = PostBox/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Pocket;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pocket (Dev)";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1451,7 +1451,7 @@
 				MARKETING_VERSION = 0.8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.simplycode.PostBox-Pocket";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simplycode.PostBox-Pocket-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1510,7 +1510,7 @@
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
+				minimumVersion = 10.0.0;
 			};
 		};
 		E918F969255A1EF40064A543 /* XCRemoteSwiftPackageReference "url-image" */ = {
@@ -1587,10 +1587,10 @@
 			package = E907C2CA2683CB2800EAE0E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
-		E907C2CD2683CB2800EAE0E3 /* FirebaseFirestoreSwift-Beta */ = {
+		E912405C2ABCE21900AC550B /* FirebaseFirestoreSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E907C2CA2683CB2800EAE0E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseFirestoreSwift-Beta";
+			productName = FirebaseFirestoreSwift;
 		};
 		E918F96A255A1EF40064A543 /* URLImage */ = {
 			isa = XCSwiftPackageProductDependency;

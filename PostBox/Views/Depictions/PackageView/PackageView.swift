@@ -101,7 +101,7 @@ struct PackageView: View {
                 .foregroundColor(.primary)
                 .fixedSize(horizontal: false, vertical: true)
             
-            if let contact = (package.author.name == "Unknown" ? package.maintainer : package.author) {
+            if let contact = Optional(package.author.name == "Unknown" ? package.maintainer : package.author) {
                 Button(action: {
                     if let emailLink = URLFunction.email(contact.email) {
                         UIApplication.shared.open(emailLink)

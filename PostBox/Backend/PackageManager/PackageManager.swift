@@ -9,7 +9,6 @@
 import SwiftUI
 import SWCompression
 import FirebaseFirestore
-import FirebaseFirestoreSwift
 
 /// View model that handles all things packages
 class PackageManager: ObservableObject {

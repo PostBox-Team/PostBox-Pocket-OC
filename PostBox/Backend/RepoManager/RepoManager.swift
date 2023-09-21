@@ -8,7 +8,7 @@
 
 import SwiftUI
 import FirebaseFirestore
-import FirebaseFirestoreSwift
+
 
 /// ViewModel that handles all repository-related tasks
 class RepoManager: ObservableObject {

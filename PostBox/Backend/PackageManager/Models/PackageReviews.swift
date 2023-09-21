@@ -8,6 +8,7 @@
 
 import FirebaseFirestoreSwift
 
+
 enum ReviewSortType: String {
     case recent
     case favorable
@@ -25,7 +26,7 @@ struct Review: Codable, Identifiable {
     }
     
     @DocumentID public var id: String?
-    
+
     var time: Date
     var body: String
     var author: String

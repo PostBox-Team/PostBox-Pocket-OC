@@ -45,7 +45,7 @@ class Package: ObservableObject, Identifiable, Equatable, Comparable {
     
     var maintainer: Contact
     var author: Contact
-    
+
     var section: String
     var version: String
     var tags: [String]
