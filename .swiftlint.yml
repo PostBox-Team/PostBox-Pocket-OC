@@ -1,0 +1,22 @@
+disabled_rules: # rule identifiers turned on by default to exclude from running
+  - trailing_whitespace
+  - multiple_closures_with_trailing_closure
+  - nesting
+  - large_tuple
+  - force_cast
+  - line_length
+
+
+identifier_name:
+  allowed_symbols: "_"
+  excluded: # excluded via string array
+    - id
+    - g
+    - i
+    - x
+    - y
+    
+excluded:
+    - Tweak Explorer
+    - Pods
+    - "*/*Delegate.swift" # App Delegate and Scene Delegate

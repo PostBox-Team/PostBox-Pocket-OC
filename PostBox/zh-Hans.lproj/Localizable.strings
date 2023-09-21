@@ -1,0 +1,292 @@
+/*
+  Localizable.strings
+  Tweak Explorer
+
+  Created by Polarizz on 8/27/22.
+  Copyright © 2022 PostBoxTeam. All rights reserved.
+*/
+
+// Bubbles
+"Download Failed L" = "下载失败"; // 下载失败
+"Not logged in L" = "未登录"; // 未登录
+"Not purchased L" = "未购买"; // 未购买
+
+// Misc
+"Refresh Progress L" = "刷新进度"; // 刷新进度
+"Allows for faster package depiction loading. Turning this on will disable depiction text selection. L" = "允许更快的描写加载。此选项将禁用描写文本选择"; // 允许更快的描写加载。此选项将禁用描写文本选择
+
+// Pocket Settings Header
+"Display LU" = "展示"; // 展示
+"Depictions LU" = "描寫"; // 描寫
+"Refresh LU" = "刷新"; // 刷新
+
+// Pocket Settings
+"Package settings L" = "软件包设置"; // 软件包设置
+"Repo settings L" = "软体源设置"; // 软体源设置
+
+"Report L" = "报告"; // 报告
+"Send App Logs, issues, and feedback L" = "发送应用日志、问题和反馈"; // 发送应用日志、问题和反馈
+
+"App Log L" = "应用日志"; // 应用日志
+"Send App Log for debugging purposes. L" = "发送应用程序日志以进行调试"; // 发送应用程序日志以进行调试
+
+"Bugs L" = "错误"; // 错误
+"Report specific issues in PostBox. L" = "在PostBox中报告错误"; // 在PostBox中报告错误
+
+"Feedback L" = "反馈"; // 反馈
+"Leave us feedback so PostBox can continue improving. L" = "给我们留下反馈"; // 给我们留下反馈
+
+"Attachment L" = "添加附件"; // 添加附件
+"Submit L" = "提交"; // 提交
+
+"Describe the issue L" = "描述问题"; // 描述问题
+"Leave us a feedback L" = "给我们反馈"; // 给我们反馈
+
+// Pocket Install
+"On iOS 14 or below, use a third-party extractor to access.theme files. On iOS 15 and above, .theme files can be accessed via the Files app. L" = "在iOS 14或更低版本，使用第三方提取器来使用.theme文件。在iOS 15及更高版本上，通过Files应用程序使用.theme文件。"; // 在iOS 14或更低版本，使用第三方提取器来使用.theme文件。在iOS 15及更高版本上，通过Files应用程序使用.theme文件。
+
+// Pocket Import Repos
+"Add or Import Repos L" = "添加或导入软体源"; // 添加或导入软体源
+"Enter repo URL L" = "输入软体源网址"; // 输入软体源网址
+"Add L" = "添加"; // 添加
+"Remove All Repos L" = "消除所有软体源"; // 消除所有软体源
+
+// Splash
+"Welcome L" = "欢迎"; // 欢迎
+"To maximize the user experience when using PostBox, a relaunch is required to complete the set up process. L" = "为了在使用PostBox时发挥最流畅的用户体验，你需要重新启动应用程序。"; // 为了在使用PostBox时发挥最流畅的用户体验，你需要重新启动应用程序。
+"To maximize the user experience when using PostBox Pocket, a relaunch is required to complete the set up process. L" = "为了在使用PostBox Pocket时发挥最流畅的用户体验，你需要重新启动应用程序。"; // 为了在使用PostBox时发挥最流畅的用户体验，你需要重新启动应用程序。
+
+"Relaunch L" = "重新启动"; // 重新启动
+
+// Filter
+"Filter L" = "筛选"; // 筛选
+"PostBox Stories are disabled in this beta in order to accommodate for further development. L" = "PostBox故事在此测试版中被禁用，以适应进一步的开发"; // PostBox故事在此测试版中被禁用，以适应进一步的开发。
+
+// Home View
+"For You L" = "为你推荐"; // 为你推荐
+"Storyboard L" = "故事版"; // 故事版
+"Packages L" = "软件包"; // 软件包
+"Repos L" = "软体源"; // 软体源
+
+"Search L" = "搜索"; // 搜索
+
+"Update Available L" = "有新的更新"; // 有新的更新
+"hours ago L" = "小时前"; // 小时前
+"weeks ago L" = "个星期前"; // 个星期前
+
+"Loading Recently Updated Packages L" = "正在加载最近更新的软件包"; // 正在加载最近更新的软件包
+"Tap to see loading progress. L" = "点击查看加载进度"; // 点击查看加载进度
+
+"No Repos Added L" = "软体源空空如也"; // 软体源空空如也
+"Add repos to see recently updated packages. L" = "添加软体源以查看最近更新的软件包"; // 添加软体源以查看最近更新的软件包
+
+// Settings icon
+"Default LU" = "默认"; // 默认
+"LOL LU" = "哈哈"; // 哈哈
+"Custom LU" = "自定"; // 自定
+"Colored LU" = "有色"; // 有色
+
+// Review
+"No Reviews L" = "没有评论"; // 没有评论
+"Be the first to review this package. L" = "使第一个评论此软件包"; // 使第一个评论此软件包
+"New Review L" = "撰写评论"; // 撰写评论
+"Discard Review L" = "删除评论"; // 删除评论
+
+"Written by L" = "作者"; // 作者
+"Type your review L" = "输入评论"; // 输入评论
+
+// Depiction
+"Review L" = "评论"; // 评论
+"Wished L" = "想要"; // 想要
+"Wish L" = "想要"; // 想要
+"Curated L" = "点赞"; // 点赞
+"Curate L" = "点赞"; // 点赞
+
+// Edit View
+"Cover L" = "图片"; // 图片
+"Tap + or the selected photo to change the cover image L" = "点击 + 或照片以更改封面图片"; // 点击 + 或照片以更改封面图片
+
+"Title L" = "标题"; // 标题
+"Author L" = "作者"; // 作者
+"Content L" = "内容"; // 内容
+
+"My title L" = "我的标题"; // 我的标题
+"My display name L" = "我的显示名称"; // 我的显示名称
+"My content L" = "我的内容"; // 我的内容
+
+"Hyperlink L" = "超链接"; // 超链接
+"Package Link L" = "软件包链接"; // 软件包链接
+"Repo Link L" = "软体源链接"; // 软体源链接
+
+// Extractions
+"Extractions L" = "提取"; // 提取
+
+// Install
+"Redirect L" = "重定向"; // 重定向
+"Download L" = "下载"; // 下载
+
+"No Package Managers Detected L" = "未检测到软件包管理器"; // 未检测到软件包管理器
+"Installation is only available when jailbroken. L" = "越狱后才可以安装"; // 越狱后才可以安装
+
+"Use one of the package managers to continue the install process. Available when jailbroken. L" = "使用其中一个软件包管理器继续安装过程。越狱后可用。"; // 使用其中一个软件包管理器继续安装过程。越狱后可用。
+"Access to extracted .deb files allows for theme installation on unjailbroken devices. On iOS 14 or below, use a third-party extractor to access.theme files. On iOS 15 and above, .theme files can be accessed via the Files app. L" = "使用提取的.deb文件在未越狱设备上安装主题。在iOS 14或更低版本，使用第三方提取器来使用.theme文件。在iOS 15及更高版本上，可以通过Files应用程序使用.theme文件。"; // 使用提取的.deb文件在未越狱设备上安装主题。在iOS 14或更低版本，使用第三方提取器来使用.theme文件。在iOS 15及更高版本上，可以通过Files应用程序使用.theme文件。
+
+"Download .deb file L" = "下载.deb文件"; // 下载.deb文件
+"Manually install packages using .deb files. L" = "使用.deb文件来手动安装软件包"; // 使用.deb文件来手动安装软件包
+
+"Extract .deb file L" = "提取.deb文件"; // 提取.deb文件
+"Extract content to the Files app. L" = "将内容提取到Files应用程序"; // 将内容提取到Files应用程序
+
+"Files processed L" = "文件处理好了"; // 文件处理好了
+"Processing theme files L" = "正在处理主题文件"; // 正在处理主题文件
+
+"Tap for more information. L" = "点击了解更多信息"; // 点击了解更多信息
+
+"Open in Files L" = "在Files应用程序中打开"; // 在Files应用程序中打开
+"Failed L" = "提取失败"; // 提取失败
+
+// Search
+"No Results L" = "没有结果"; // 没有结果
+"Keep typing for more search results. L" = "继续输入以获取更多搜索结果"; // 继续输入以获取更多搜索结果
+
+// For You View
+"ago L" = "前"; // 前
+
+// Storyboard View
+"Coming Soon L" = "即将到"; // 即将到
+"Storyboard is still in active development, not all features have been implemented. L" = "Storyboard仍在积极开发中，并非所有功能都已加入"; // Storyboard仍在积极开发中，并非所有功能都已加入
+
+"New Story L" = "新故事"; // 新故事
+"Make your own Stories from scratch. L" = "从头创作制作自己的故事"; // 从头创作制作自己的故事
+
+"My Stories L" = "我的故事"; // 我的故事
+
+// Packages View
+"Save your favorite packages. L" = "软件包收赃"; // 软件包收赃
+
+"Popular Packages L" = "热门软件包"; // 热门软件包
+"Showing the top 8 packages that have been curated the most. L" = "显示最受欢迎的前8个软件包"; // 显示最受欢迎的前8个软件包
+
+"Popular L" = "热门"; // 热门
+"Themes L" = "主题"; // 主题
+"Appearance L" = "外貌"; // 外貌
+"Media L" = "媒体"; // 媒体
+"System L" = "系统"; // 系统
+
+// Repos View
+"Enter or paste sources L" = "输入或粘贴软体源"; // 输入或粘贴软体源
+
+"Import Repos L" = "导入软体源"; // 导入软体源
+"Export Repos L" = "导出软体源"; // 导出软体源
+
+"Select one or more import options L" = "选择一项或多项导入方式"; // 选择一项或多项导入方式
+
+"Export L" = "导出"; // 导出
+"Import L" = "导入"; // 导入
+
+"Available L" = "可用"; // 可用
+"Unavailable L" = "不可用"; // 不可用
+
+"Import from Pasteboard L" = "从粘贴板导入"; // 从粘贴板导入
+"Copy a list of repos to get started. L" = "复制软体源列表以开始"; // 复制软体源列表以开始
+
+"Cancel L" = "取消"; // 取消
+"Select L" = "选择"; // 选择
+
+"Repo Queue L" = "软体源队列"; // 软体源队列
+
+"Browse Repos L" = "浏览软体源"; // 浏览软体源
+"Explore over 200 repos. L" = "探索200多个软体源"; // 探索200多个软体源
+
+"View Stores L" = "查看以登入的软体源"; // 查看以登入的软体源
+"Sign in and view purchased packages. L" = "登录并查看购买的软件包"; // 登录并查看购买的软件包
+
+"Signed In L" = "以登入的软体源"; // 以登入的软体源
+
+// Settings View
+"Settings L" = "设置"; // 设置
+
+"General L" = "通用"; // 通用
+"Main app settings L" = "主要应用设置"; // 主要应用设置
+
+"customization L" = "自定"; // 自定
+"customization LU" = "自定"; // 自定
+"Customize the look of the app L" = "自定应用外观"; // 自定应用外观
+
+"Wish List L" = "愿望清单"; // 愿望清单
+"Save your favorite packages L" = "软件包收赃"; // 软件包收赃
+"Empty Wish List L" = "愿望清单空空如也"; // 愿望清单空空如也
+"Save packages using the Wish button in depictions. L" = "请使用描写中的愿望按钮来保存软件包"; // 请使用描写中的愿望按钮来保存软件包
+
+"Stores L" = "软体源"; // 软体源
+"Manage signed in repos L" = "管理已登录的软体源"; // 管理已登录的软体源
+
+"App Log L" = "应用日志"; // 应用日志
+"View app actions L" = "查看应用操作"; // 查看应用操作
+
+"What's New L" = "新功能"; // 新功能
+"See app updates L" = "查看应用更新"; // 查看应用更新
+
+"FAQ L" = "常问问题"; // 常问问题
+"Frequently asked questions L" = "问题和答案"; // 问题和答案
+
+"Donate L" = "捐赠给我们"; // 捐赠给我们
+"Buy us a Ko-fi L" = "给我们买一杯咖啡"; // 给我们买一杯咖啡
+
+"Acknowledgements L" = "致谢"; // 致谢
+"Thank you L" = "非常感谢大家的关照"; // 非常感谢大家的关照
+
+// General
+"App Settings LU" = "应用设置"; // 应用设置
+"Packages LU" = "软件包"; // 软件包
+"Search LU" = "搜索"; // 搜索
+"Redirect LU" = "重定向"; // 重定向
+"Danger LU" = "危险地带"; // 危险地带
+
+"Refresh Repo On Launch L" = "启动时刷新软体源"; // 启动时刷新软体源
+"PostBox will refresh installed repos on app launch. L" = "PostBox将在启动时刷新已安装的软体源"; // PostBox将在启动时刷新已安装的软体源
+
+"Update Time Mode L" = "更新时间模式"; // 更新时间模式
+"Choose between time elapsed or date format for updated packages in Home View. L" = "在主视图中选择软件包的更新时间模式"; // 在主视图中选择软件包的更新时间模式
+"Select an update time mode L" = "选择更新时间模式"; // 选择更新时间模式
+"Elapsed L" = "经过时间"; // 经过时间
+"Date L" = "日期"; // 日期
+
+"Search Mode L" = "搜索模式"; // 搜索模式
+"Search results with titles that contain the search term. L" = "标题包含搜索词的搜索结果"; // 标题包含搜索词的搜索结果
+"Select a search mode L" = "选择搜索模式"; // 选择搜索模式
+"Classic L" = "普通搜索"; // 普通搜索
+"Contains L" = "包含搜索"; // 包含搜索
+"Deep L" = "深度搜索"; // 深度搜索
+
+"Open Links in Reader View L" = "在阅读器中打开链接"; // 在阅读器中打开链接
+
+"Advanced L" = "高级"; // 高级
+
+"Rendering LU" = "渲染"; // 渲染
+"Reset LU" = "重置"; // 重置
+
+"Accelerated Depiction Rendering L" = "加速描写渲染"; // 加速描写渲染
+"Allows for faster package depiction loading. L" = "允许更快的描写加载"; // 允许更快的描写加载
+
+"Icon Rendering L" = "图标渲染"; // 图标渲染
+"Renders package and repository icons. L" = "呈现软件包和软体源的图标"; // 呈现软件包和软体源的图标
+
+"Clear Cache L" = "清除缓存"; // 清除缓存
+
+"Restore Repos L" = "重置软体源"; // 重置软体源
+"Restores PostBox with default repos. L" = "重置PostBox的默认软体源"; // 重置PostBox的默认软体源
+
+"Reset All Settings L" = "重置所有设定"; // 重置所有设定
+
+// Customization
+"Customization L" = "自定"; // 自定
+"Stories L" = "故事"; // 故事
+
+"App Icon L" = "应用图标"; // 应用图标
+"Choose a custom app icon for your device's home screen. L" = "为主屏幕自定应用图标"; // 为主屏幕自定应用图标
+
+"Show Thumbnails in For You L" = "在为你推荐里显示缩略图"; // 在为你推荐里显示缩略图
+
+"Adaptive Color Depictions L" = "自适应的描写颜色"; // 自适应的描写颜色
+"Dynamically changes package depiction UI colors for support packages. L" = "自动更改描写颜色"; // 自动更改描写颜色
